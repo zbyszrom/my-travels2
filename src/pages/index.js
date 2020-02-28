@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Intro from "../components/intro"
-import FeaturedPlaces from "../components/featuredPlaces"
+import FeaturedLocations from "../components/featuredLocations"
 import AboutMe from "../components/aboutMe"
 
 
@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     
     <Intro/>
-    <FeaturedPlaces/>
+    <FeaturedLocations/>
     <AboutMe/>
     
   </Layout>

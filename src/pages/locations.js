@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout' 
 
-const Places = () => {
+const Locations = () => {
     return (
         <Layout>
-          <p> these are places</p>  
+          <p> these are locations</p>  
         </Layout>
     )
 }
 
-export default Places
+export default Locations

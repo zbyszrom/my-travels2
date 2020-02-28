@@ -5,7 +5,7 @@ export default [
         text: 'Początek'
     },
     {
-        path: '/places',
+        path: '/locations',
         text: 'Ciekawe miejsca'
     },
     {

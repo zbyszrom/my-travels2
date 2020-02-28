@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout' 
-
+import ForLocations from '../components/forPages/forLocations'
 const Locations = () => {
     return (
         <Layout>
-          <p> these are locations</p>  
+          <ForLocations/>
         </Layout>
     )
 }

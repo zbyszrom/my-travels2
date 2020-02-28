@@ -3,7 +3,32 @@ import Layout from '../components/layout'
 const Contact = () => {
     return (
         <Layout>
-            <p>Contact form</p>
+            <section>
+        <form>
+         <h1>Kontakt</h1> 
+         <div >
+                    <form method='post' name='contact' action='/thanks' data-netlify='true'>
+                    <input type="hidden" name="form-name" value="contact" />
+                    
+                    <div>
+                        <label>Imię</label>
+                        <input type='text' name='name' />
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type='text' name='email' />
+                    </div>
+                    <div >
+                        <label>Wiadomość</label>
+                        <textarea name='message' rows='6'></textarea>
+                    </div>
+                    <submit>
+                    <button type='submit' >Wyślij</button>
+                    </submit>
+                    </form>
+        </div> 
+        </form>
+        </section>
         </Layout>
     )
 }

@@ -9,7 +9,7 @@ import AboutMe from "../components/aboutMe"
 
 const IndexPage = () => (
   <Layout>
-    <Hero />
+    <Hero/>
     <Intro/>
     <FeaturedLocations/>
     <AboutMe/>

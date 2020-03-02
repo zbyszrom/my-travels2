@@ -11,15 +11,15 @@ const Contact = () => {
                     <input type="hidden" name="form-name" value="contact" />
                     
                     <div>
-                        <label>Imię</label>
+                        <label htmlFor="name">Imię</label>
                         <input type='text' name='name' />
                     </div>
                     <div>
-                        <label>Email</label>
+                        <label htmlFor="email">Email</label>
                         <input type='text' name='email' />
                     </div>
                     <div >
-                        <label>Wiadomość</label>
+                        <label htmlFor="message">Wiadomość</label>
                         <textarea name='message' rows='6'></textarea>
                     </div>
                     <submit>

@@ -1,0 +1,8 @@
+.heroImg {
+    min-height: calc(100vh - 11rem);
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }

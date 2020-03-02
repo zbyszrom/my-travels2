@@ -8,12 +8,13 @@
 import React from "react"
 import Navbar from "./navbar"
 import Footer from "./footer"
+import "../styles/layout.css"
 
 
 //import { useStaticQuery, graphql } from "gatsby"
 
 
-import "./layout.css"
+
 
 const Layout = ({ children }) => {
   

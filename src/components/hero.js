@@ -21,7 +21,7 @@ const Hero = () => {
     return (
        
         <BackgroundImage 
-            fluid = {data.Bcg.fluid} style= {{minHeight: "calc(100vh - 200px)", minWidth: "100vw", display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+            fluid = {data.Bcg.fluid} className = 'heroImg'>
             
             <h2>Ciekawe miejsca</h2>
             <p>w kraju i na świecie</p> 
